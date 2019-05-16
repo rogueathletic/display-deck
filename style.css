@@ -28,7 +28,7 @@ padding: 0 0 0 0;
 z-index: 2;
 top: 0;
 left: 0;
-filter: drop-shadow(-70px -2px 2px rgba(0, 0, 0, 0.329));
+filter: drop-shadow(-37px -2px 2px rgba(0, 0, 0, 0.3));
 overflow: hidden;
 
     -moz-transform: skew(0deg, -25deg);
@@ -76,16 +76,15 @@ left: 0;
 }
 
 #phone-shadow {
-    width: 16vww;
+    width: 6vw;
     height: 4vh;
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.171);
     position: absolute;
     border-radius: 5px;
     z-index: 3;
     top: 0;
 left: 0;
 margin: 26vh 0 0 30vw;
-box-shadow: -1px -1px px black;
     -moz-transform: skew(0deg, 0deg);
     -webkit-transform: skew(0deg, 0deg);
     -o-transform: skew(0deg, 0deg);
