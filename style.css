@@ -29,7 +29,7 @@ z-index: 2;
 top: 0;
 left: 0;
 filter: drop-shadow(-70px -2px 2px rgba(0, 0, 0, 0.329));
-
+overflow: hidden;
 
     -moz-transform: skew(0deg, -25deg);
 -webkit-transform: skew(0deg, -25deg);
@@ -73,4 +73,22 @@ left: 0;
     -o-transform: skew(0deg, -25deg);
     -ms-transform: skew(0deg, -25deg);
     transform: skew(0deg, -25deg);
+}
+
+#phone-shadow {
+    width: 16vww;
+    height: 4vh;
+    background-color: rgba(0, 0, 0, 0.26);
+    position: absolute;
+    border-radius: 5px;
+    z-index: 3;
+    top: 0;
+left: 0;
+margin: 26vh 0 0 30vw;
+box-shadow: -1px -1px px black;
+    -moz-transform: skew(0deg, 0deg);
+    -webkit-transform: skew(0deg, 0deg);
+    -o-transform: skew(0deg, 0deg);
+    -ms-transform: skew(0deg, 0deg);
+    transform: skew(0deg, -0deg);
 }
